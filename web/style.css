@@ -1,0 +1,112 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	/*background: #700970;*/
+	font-family: Arial;
+	color: #fff;
+}
+h1{
+	font-size: 30px;
+	padding-top: 5px;
+	font-weight: normal;
+}
+#container{
+	margin: auto auto;
+	background: radial-gradient(#71a, #000);
+	width: 840px;
+	height: 860px;
+}
+#name{
+	text-align: center;
+	font-family: Arial Black;
+	height: 70px;
+	width: 850px;
+}
+#name h1{
+	font-size: 65px;
+}
+#left{
+	width: 130px;
+	height: 310px;
+	background: #616161;
+	margin-left: 20px;
+	border: 2px solid #000;
+	text-align: center;
+	float: left;
+	border-radius: 15px;
+}
+#menu td{
+	width: 100px;
+	height: 20px;
+	background: #443636;
+}
+#menu a{
+	text-decoration: none;
+	color: #fff;
+}
+#menu a:hover{
+	text-decoration: underline;
+}
+#info{
+	background: #616161;
+	width: 480px;
+	height: 220px;
+	border: 2px solid #000;
+	margin: auto;
+	text-align: center;
+	border-radius: 15px;
+}
+#right{
+	background: #616161;
+	width: 130px;
+	height: 310px;
+	border: 2px solid #000;
+	text-align: center;
+	margin-right: 20px;
+	float: right;
+	border-radius: 15px;
+}
+#login td{
+	width: 100px;
+	height: 20px;
+}
+#login input{
+	width: 100px;
+	height: 20px;
+	background: #443636;
+}
+#footer{
+	background: #616161;
+	width: 795px;
+	height: 80px;
+	border: 1px solid #000;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 15px;
+}
+form {
+  position: relative;
+  width: 475px;
+  margin: 40px auto;
+  background: #616161;
+  border: 1px solid #000;
+  border-radius: 15px;
+}
+input, button {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+input {
+  width: 100%;
+  height: 47px;
+  padding-left: 15px;
+  color: #fff;
+}
+input::-webkit-input-placeholder {
+  color: #aaa; 
+  font-style: italic;
+}
